@@ -1,0 +1,25 @@
+All messages have a GUID (maybe built in) to identify it.
+
+PLAYER -> SERVER
+new player()
+new game(player id)
+new game with opponent(player id, opponent id)
+get game(player id, game id)
+place ships(list of ships, player id, game id)
+shoot(coordinates, player id, game id)
+
+SERVER -> PLAYER
+player(player id)
+game(state, game id) 
+shot result(result, game id)
+incoming shot(shot, game id)
+game start(phase, game id)
+game end(opponent's list of ships, game id, outcome)
+error(message, error id)
+
+ship: list of coordinates, ship id
+state: list of ships, phase, list of shots, opponent's list of shots
+phase: setup/your turn/their turn/ended
+result: hit/miss
+outcome: win/loss
+shot: coordinate, result
