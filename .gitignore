@@ -1,0 +1,41 @@
+/Artifacts
+/Build
+
+#generated at conflict resolution
+*.orig
+
+#ignore JetBrains files
+_ReSharper*/
+_dotCover*/
+_UpgradeReport_Files/
+*.ReSharper
+*.dotCover
+*.user
+UpgradeLog.*
+
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Ignore files build by Visual Studio
+*.obj
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in/
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+*.lib
+*.sbr
+[Tt]est[Rr]esult*
